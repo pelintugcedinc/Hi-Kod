@@ -1,0 +1,43 @@
+.table_id{
+    border:1px solid black ;
+     border-collapse: collapse; 
+     width: 100px; 
+     height:"100%"; 
+     margin:"1";padding:"3";
+     
+}
+
+.başlık{
+    font-style: inherit;
+}
+
+#kaydet {
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    background-color: #4CAF50; /* Yeşil arka plan */
+    color: white; /* Beyaz yazı rengi */
+    border: none;
+    border-radius: 5px;
+    
+}
+
+#kaydet:hover {
+    background-color: #45a049; /* Hover durumunda arka plan rengini değiştirir */
+}
+
+#sil {
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    background-color: #b5cb34; /* Yeşil arka plan */
+    color: white; /* Beyaz yazı rengi */
+    border: none;
+    border-radius: 5px;
+    
+}
+
+#sil:hover {
+    background-color: #c1c931; /* Hover durumunda arka plan rengini değiştirir */
+}
+
