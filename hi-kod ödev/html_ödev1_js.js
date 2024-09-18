@@ -3,5 +3,5 @@ document.getElementById("kaydet").addEventListener("click", function() {
 });
 
 document.getElementById("sil").addEventListener("click", function() {
-    alert("Silindi!");
+    alert("Silindi!"); 
 });
