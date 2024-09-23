@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hi Kod Ödev 1</title>
+
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f0f8ff;
+        }
+        h1 {
+            color: #4CAF50;
+        }
+        .bt1:hover {
+            background-color: darkblue;
+            color: white;
+        }
+        .bt2:hover {
+            background-color: red;
+            color: white;
+        }
+        input[type="text"], input[type="email"], input[type="tel"] {
+            width: 100%;
+            padding: 12px 20px;
+            margin: 8px 0;
+            box-sizing: border-box;
+            border: 2px solid #ccc;
+            border-radius: 4px;
+            background-color: #e6f7ff;
+        }
+        th, td {
+            padding: 10px;
+        }
+        th {
+            color: #ff4500;
+        }
+        table {
+            background-color: #fff;
+            border-collapse: collapse;
+            width: 50%;
+            margin: 20px auto;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+        th, td {
+            border: 1px solid #ddd;
+        }
+        input[type="button"] {
+            padding: 10px 20px;
+            margin: 5px;
+            border-radius: 5px;
+            border: none;
+            cursor: pointer;
+        }
+    </style>
+</head>
+<body>
+    <form style="margin: 0; padding: 0; box-sizing: border-box;">
+        <center>
+            <table>
+                <tr title="Hi Kod Front-End Atölyesi İlk Ödev">
+                     <th colspan="3"><h1>Hi Kod Front-End Atölyesi İlk Ödev</h1></th>
+                </tr>
+
+                <tr>
+                    <th><label for="ad">Ad</label></th>
+                    <th>:</th>
+                    <td><input type="text" id="ad" placeholder="Pelin Tuğçe" required></td>
+                </tr>
+
+                <tr>
+                    <th><label for="soyad">Soyad</label></th>
+                    <th>:</th>
+                    <td><input type="text" id="soyad" placeholder="Dinç" required></td>
+                </tr>
+
+                <tr>
+                    <th><label for="email">Email</label></th>
+                    <th>:</th>
+                    <td><input type="email" id="email" placeholder="example@example.com" required></td>
+                </tr>
+
+                <tr>
+                    <th><label for="adres">Adres</label></th>
+                    <th>:</th>
+                    <td><input type="text" id="adres" placeholder=""></td>
+                </tr>
+
+                <tr>
+                    <th>Cinsiyet</th>
+                    <th>:</th>
+                    <td>
+                        <input type="checkbox" id="kadin"><label for="kadin">Kadın</label>
+                        <input type="checkbox" id="erkek"><label for="erkek">Erkek</label>
+                    </td>
+                </tr>
+
+                <tr>
+                    <th><label for="telefon">Telefon Numarası</label></th>
+                    <th>:</th>
+                    <td><input type="tel" id="telefon" placeholder="+905421658974" required></td>
+                </tr>
+
+                <tr >
+                    <th></th>
+                    <th></th>
+                    <th >
+                        <input class="bt1" type="button" value="Kaydet" style="color: blue; background-color: rgb(255, 0, 0);" onclick="alert('Kaydedildi!')">
+                        <input class="bt2" type="button" value="Sil" style="color: blue; background-color: pink;" onclick="alert('Silindi!')">
+                    </th>
+                </tr>
+            </table>
+        </center>
+    </form>
+</body>
+</html>
