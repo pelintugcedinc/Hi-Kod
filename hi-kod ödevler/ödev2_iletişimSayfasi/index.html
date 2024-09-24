@@ -1,0 +1,197 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>İletişim Sayfası</title>
+    <style>
+        body{
+            font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+            background-color: rgb(191, 225, 155);
+        }
+
+        h1 {
+            color: #556B2F;
+        }
+
+        h3{
+            color: #72913d
+        }
+
+        input[type="text"], input[type="email"], input[type="tel"], select [id="subject"], input [type="file"] {
+            width: 100%;
+            padding: 12px 20px;
+            margin: 8px 0;
+            box-sizing: border-box;
+            border: 2px solid #ccc;
+            border-radius: 15px;
+            background-color: #f5fff6;
+        }
+
+        th, td {
+            padding: 10px;
+        }
+        th {
+            color: #4eca63;
+        }
+        table {
+            background-color: #fff;
+            border-collapse: collapse;
+            width: 50%;
+            margin: 20px auto;
+            box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+            border-radius: 15px; /* Kenarları yuvarlat */
+            overflow: hidden;
+        }
+        th, td {
+            border: 1px solid #ddd;
+        }
+        
+        input[type="submit"] {
+            background-color: #4CAF50; 
+            color: white;
+            padding: 10px 20px; 
+            border: none;
+            border-radius: 5px; 
+            cursor: pointer; 
+            font-size: 16px;
+        }
+
+        input[type="submit"]:hover {
+            background-color: #45a049;
+        }
+
+        select[id="subject"]{
+            width: 100%;
+            padding: 12px 20px;
+            margin: 8px 0;
+            box-sizing: border-box;
+            border: 2px solid #ccc;
+            border-radius: 15px;
+            background-color: #f5fff6;
+        }
+        
+        input [type="file"]{
+            width: 100%;
+            padding: 12px 20px;
+            margin: 8px 0;
+            box-sizing: border-box;
+            border: 2px solid #ccc;
+            border-radius: 15px;
+            background-color: #f5fff6;
+            
+        }
+
+        .custom-file-input {
+            display: inline-block;
+            width: 100%;
+            padding: 10px;
+            background-color: #c0f4c1; 
+            color: grey; 
+            border: 1px solid #ccc;
+            border-radius: 15px;
+            cursor: pointer;
+        }
+
+        .custom-file-input::file-selector-button {
+            background-color: #c0f4c1; 
+            color: grey; 
+            padding: 10px;
+            border: none;
+            border-radius: 15px;
+            cursor: pointer;
+        }
+
+        .custom-file-input::file-selector-button:hover {
+            background-color: #9bb99c; 
+        }
+
+        
+
+        
+
+    </style>
+</head>
+<body>
+    <form>        
+        
+        <table align="center">
+            <tr>
+                <th colspan="3"><h1>Bize Ulaşın!</h1></th>
+            </tr>
+            <tr>
+                <th>Ad</th>
+                <th>:</th>
+                <td><input type="text" placeholder="Gizem"></td>
+            </tr>
+
+            <tr>
+                <th>Soyad</th>
+                <th>:</th>
+                <td><input type="text" placeholder="Gülcü"></td>
+            </tr>
+
+            <tr>
+                <th>Telefon Numarası</th>
+                <th>:</th>
+                <th><input type="tel" placeholder="+90 598 356 95 97"></th>
+            </tr>
+
+            <tr>
+                <th>Email</th>
+                <th>:</th>
+                <th><input type="email" placeholder="example@example.com"></th>
+            </tr>
+
+            <tr>
+                <th><label for="address">Adres</label></th>
+                <th>:</th>
+                <th><input type="text" id="address" name="address" placeholder="Adresinizi girin"></th>
+            </tr>
+
+            <tr>
+                <th> <label for="subject">Konu</label></th>
+                <th>:</th>
+                    <th> <select id="subject" name="subject">
+                         <option value="destek">Destek</option>
+                         <option value="satis">Satış</option>
+                         <option value="genel">Genel Soru</option>
+                         <option value="sikayet">Şikayet</option>
+                     </select></th>
+ 
+             </tr>
+
+             <tr>
+                <th>Bir Dosya Seçin</th>
+                <th>:</th>
+                <th><input type="file"  id="file-input" class="custom-file-input"/></th>
+             </tr>
+
+            <tr>
+                <th>Mesaj</th>
+                <th>:</th>
+                <th><input type="text" placeholder="Buraya bize söylemek istediğiniz şeyi yazın,lütfen!"></th>
+            </tr>
+
+            <tr >
+                
+                <th colspan="3"><input type="submit" value="Gönder!"></th>
+            </tr>
+        </table>
+
+        <footer>
+            <table>
+                <tr>
+                    <th><h3>Adresimiz:</h3></th>
+                </tr>
+                <tr>
+                    
+                    <th><div style="width: 100%"><iframe width="100%" height="600" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" src="https://maps.google.com/maps?width=100%25&amp;height=600&amp;hl=en&amp;q=+(An%C4%B1tkabir)&amp;t=&amp;z=14&amp;ie=UTF8&amp;iwloc=B&amp;output=embed"><a href="https://www.gps.ie/">gps devices</a></iframe></div></th>
+                
+                </tr>
+            </table>
+        </footer>
+        
+    </form>
+</body>
+</html>
