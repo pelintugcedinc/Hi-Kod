@@ -13,14 +13,7 @@
         h1 {
             color: #4CAF50;
         }
-        .bt1:hover {
-            background-color: darkblue;
-            color: white;
-        }
-        .bt2:hover {
-            background-color: red;
-            color: white;
-        }
+        
         input[type="text"], input[type="email"], input[type="tel"] {
             width: 100%;
             padding: 12px 20px;
@@ -46,12 +39,20 @@
         th, td {
             border: 1px solid #ddd;
         }
-        input[type="button"] {
-            padding: 10px 20px;
-            margin: 5px;
-            border-radius: 5px;
-            border: none;
-            cursor: pointer;
+        
+        input[type="submit"], input[type="reset"] {
+            background-color: #4CAF50; /* Yeşil renk */
+            color: white; /* Beyaz yazı */
+            padding: 10px 20px; /* Buton boyutu */
+            border: none; /* Kenarlık yok */
+            border-radius: 5px; /* Yuvarlatılmış köşeler */
+            cursor: pointer; /* İmleç tipi */
+            font-size: 16px; /* Yazı boyutu */
+        }
+
+        /* Fare ile butonun üzerine gelindiğinde */
+        input[type="submit"]:hover, input[type="reset"]:hover {
+            background-color: #45a049; /* Daha koyu yeşil */
         }
     </style>
 </head>
@@ -106,8 +107,8 @@
                     <th></th>
                     <th></th>
                     <th >
-                        <input class="bt1" type="button" value="Kaydet" style="color: blue; background-color: rgb(255, 0, 0);" onclick="alert('Kaydedildi!')">
-                        <input class="bt2" type="button" value="Sil" style="color: blue; background-color: pink;" onclick="alert('Silindi!')">
+                        <input class="bt1" type="submit" value="Kaydet" onclick="alert('Kaydedildi!')">
+                        <input class="bt2" type="reset" value="Sil" >
                     </th>
                 </tr>
             </table>
