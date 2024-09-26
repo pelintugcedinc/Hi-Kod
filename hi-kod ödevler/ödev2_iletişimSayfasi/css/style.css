@@ -1,0 +1,111 @@
+body{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    background-color: rgb(191, 225, 155);
+}
+
+h1 {
+    color: #556B2F;
+}
+
+h3{
+    color: #72913d
+}
+
+input[type="text"], input[type="email"], input[type="tel"], select [id="subject"], input [type="file"] {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+    border: 2px solid #ccc;
+    border-radius: 15px;
+    background-color: #f5fff6;
+}
+
+th, td {
+    padding: 10px;
+}
+th {
+    color: #4eca63;
+}
+table {
+    background-color: #fff;
+    border-collapse: collapse;
+    width: 70%;
+    margin: 50px auto;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+    border-radius: 15px; 
+    overflow: hidden;
+}
+th, td {
+    border: 1px solid #ddd;
+}
+
+input[type="submit"] {
+    background-color: #4CAF50; 
+    color: white;
+    padding: 10px 20px; 
+    border: none;
+    border-radius: 5px; 
+    cursor: pointer; 
+    font-size: 16px;
+}
+
+input[type="submit"]:hover {
+    background-color: #45a049;
+}
+
+select[id="subject"]{
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+    border: 2px solid #ccc;
+    border-radius: 15px;
+    background-color: #f5fff6;
+}
+
+input [type="file"]{
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+    border: 2px solid #ccc;
+    border-radius: 15px;
+    background-color: #f5fff6;
+    
+}
+
+.custom-file-input {
+    display: inline-block;
+    width: 100%;
+    padding: 10px;
+    background-color: #c0f4c1; 
+    color: grey; 
+    border: 1px solid #ccc;
+    border-radius: 15px;
+    cursor: pointer;
+}
+
+.custom-file-input::file-selector-button {
+    background-color: #c0f4c1; 
+    color: grey; 
+    padding: 10px;
+    border: none;
+    border-radius: 15px;
+    cursor: pointer;
+}
+
+.custom-file-input::file-selector-button:hover {
+    background-color: #9bb99c; 
+} 
+
+img{
+    width: 100px;
+    height:80px;
+
+}
+
+footer{
+    height:200px;
+    
+}
