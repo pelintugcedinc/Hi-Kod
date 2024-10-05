@@ -1,0 +1,152 @@
+*{
+    padding: 0;
+}
+body{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    background-color: rgb(191, 225, 155);
+    display: flex;
+    justify-content: center;
+    min-height: 100vh;
+}
+
+.form-group  {
+    background-color: #f5fff6;
+    width: 150%;
+    margin: 0px;
+    padding: 20px;
+    text-align: center;
+    border-radius: 20px;
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
+    border: 1px solid #ddd;
+}
+
+.form-group-header {
+    color: #556B2F;
+}
+
+.form-group-footer {
+    width: 150%;
+    background-color: #f5fff6;
+    margin: 20px 0px 0px 0px;
+    padding: 20px;
+    text-align: center;
+    border-radius: 20px;
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
+}
+
+.form-group-footer-header{
+    color: #556B2F;
+}
+
+h3{
+    font-size: x-large;
+    color: #72913d
+}
+
+input[type="text"], input[type="email"], input[type="tel"], select [id="subject"], input [type="file"], textarea {
+    width: 70%;
+    padding: 12px 20px; 
+    margin: 8px 0; 
+    box-sizing: border-box;
+    border: 2px solid #ccc;
+    border-radius: 15px;
+    background-color: #f5fff6; 
+   
+}
+
+
+.input-group {
+    display: flex;
+    justify-content: flex-start; /* Inputları sola hizala */
+    align-items: center;
+    margin-bottom: 15px; /* Input'lar arasında boşluk bırak */
+}
+
+.input-group-2 {
+    display: flex;
+    justify-content: center; /* Inputları sola hizala */
+    align-items: center;
+    margin-bottom: 15px; /* Input'lar arasında boşluk bırak */
+}
+
+label{
+    width: 30%; /* Label genişliği */
+    text-align: center; /* Label sola yaslanacak */
+    margin-right: 10px; /* Input ile arada boşluk bırak */
+    color: #4eca63;
+}
+
+textarea{
+    resize: none;
+}
+.btn {
+    background-color: #4CAF50; 
+    color: white;
+    padding: 10px 20px; 
+    border: none;
+    border-radius: 5px; 
+    cursor: pointer; 
+    font-size: 16px;
+}
+
+.btn:hover {
+    background-color: #45a049;
+}
+
+select[id="subject"]{
+    width: 70%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+    border: 2px solid #ccc;
+    border-radius: 15px;
+    background-color: #f5fff6;
+}
+
+input [type="file"]{
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+    border: 2px solid #ccc;
+    border-radius: 15px;
+    background-color: #f5fff6;
+    
+}
+
+.custom-file-input {
+    display: inline-block;
+    width: 65%;
+    padding: 10px;
+    background-color: #c0f4c1; 
+    color: grey; 
+    border: 1px solid #ccc;
+    border-radius: 15px;
+    cursor: pointer;
+}
+
+.custom-file-input::file-selector-button {
+    background-color: #c0f4c1; 
+    color: grey; 
+    padding: 10px;
+    border: none;
+    border-radius: 15px;
+    cursor: pointer;
+}
+
+.custom-file-input::file-selector-button:hover {
+    background-color: #9bb99c; 
+} 
+
+.tel-email{
+
+    font-size: 19px;
+
+}
+
+iframe{
+    border-color:  #ddd;
+    border-radius: 10px;
+}
+
+ 

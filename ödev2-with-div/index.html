@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>İletişim Sayfası</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <form>   
+        <div class="form-group" >     
+            <div class="form-group-header">
+                <h1>İletişim Formu!</h1>
+            </div>
+
+            <div class="input-group">
+                <label for="name">Ad :</label>
+                <input type="text" id="name" name="name" placeholder="Gizem" required>
+            </div>
+
+           <div class="input-group">
+                <label for="surname">Soyad :</label>
+                <input type="text" id="surname" name="surname" placeholder="Gülcü" required>
+            </div>
+
+            <div class="input-group">
+                <label for="tel">Telefon Numarası :</label>
+                <input type="tel" id="tel" name="tel" placeholder="0598 356 95 97" maxlength="11" >
+            </div>
+
+            <div class="input-group">
+                <label for="email">Email :</label>
+                <input type="email" id="email" name="email" placeholder="example@example.com" required>
+            </div>
+
+            <div class="input-group">
+                <label for="address">Adres :</label>
+                <input type="text" id="address" name="address" placeholder="Adresinizi girin">
+            </div>
+
+            <div class="input-group">
+                <label for="subject">Konu :</label>
+                <select id="subject" name="subject" required>
+                    <option value="destek">Destek</option>
+                    <option value="satis">Satış</option>
+                    <option value="genel">Genel Soru</option>
+                    <option value="sikayet">Şikayet</option>
+                </select>
+            </div>
+
+             <div class="input-group">
+                <label for="file-input">Bir Dosya Seçin :</label>
+                <input type="file"  id="file-input" class="custom-file-input" accept=".pdf, .doc,.docx"/>
+             </div>
+
+            <div class="input-group">
+                <label for="message">Mesaj :</label>
+                <textarea type="text" id="message"  placeholder="Buraya bize söylemek istediğiniz şeyi yazın,lütfen!" required> </textarea>
+            </div>
+
+            <div>
+                <button class="btn" type="submit">Gönder!</button>
+            </div>
+        </div>
+
+
+        <footer>
+            <div class="form-group-footer" style="text-align: center;">
+                <div class="form-group-footer-header">
+                    <h1>Bize Ulaşın!</h1>
+                </div>
+
+                <div class="input-group-2">
+                    <label >Telefon Numaramız:</label>
+                    <span >+90 526 847 5587</span>
+                </div>
+
+                <div class="input-group-2">
+                    <label>Email:</label>
+                    <span>info@example.com</span>
+                </div>
+
+                <div>
+                    <h3>Adresimiz:</h3>
+                    <div style="width: 100%"><iframe width="100%" height="600" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" src="https://maps.google.com/maps?width=100%25&amp;height=600&amp;hl=en&amp;q=+(An%C4%B1tkabir)&amp;t=&amp;z=14&amp;ie=UTF8&amp;iwloc=B&amp;output=embed"><a href="https://www.gps.ie/">gps devices</a></iframe></div>
+                
+                </div>
+            </div>
+        </footer>
+        
+    </form>
+</body>
+</html>
