@@ -1,0 +1,66 @@
+body {
+background-color: rgb(210, 208, 195);
+padding: 2.5rem;
+}
+.container{
+background-color: #f5fbdb;
+border-radius: 1rem;
+box-shadow:20px #0a0a09;
+max-width: 800px; /* Genişliği ayarla */
+max-height: 600px; /* Yüksekliği ayarla */
+overflow-y: auto; /* İçerik taşarsa dikey kaydırma çubuğu ekler */
+margin: 0 auto; /* Ortalamak için */
+padding: 20px; /* İçerik ile kenarlar arasında boşluk */
+}
+.container header{
+display: flex;
+justify-content: center;
+}
+.accordion-button {
+background-color: #81856b;
+color: #fff;
+padding: 15px;
+border: none;
+transition: background-color 0.3s ease;
+border-radius: 5px;
+box-shadow: none !important; 
+}
+
+.accordion-button:focus{
+box-shadow: 0 0 10px 3px rgba(198, 203, 175, 0.732) !important;
+}
+
+.accordion-button:hover {
+background-color: #797b66;
+}
+
+.accordion-button:not(.collapsed) {
+background-color: #989d76;
+color: rgb(240, 239, 220);
+}
+
+.accordion-item {
+border: none;
+margin-bottom: 10px;
+}
+.accordion-body {
+background-color: #f3f7e4;
+padding: 20px;
+border-radius: 5px;
+font-size: 1rem;
+color: #343a40;
+}
+
+.accordion-body img {
+display: block;
+max-width: 100%;
+margin-bottom: 15px;
+}
+
+.accordion-header {
+font-weight: bold;
+}
+
+h2 {
+color: #343a40;
+}
